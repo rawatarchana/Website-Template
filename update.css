@@ -1,0 +1,71 @@
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+/*for nav-bar-icon*/
+.navbar-toggler-icon {
+    background-image: none !important;
+    color: #fff;
+}
+/*for navbar*/
+.navbar {
+    background: linear-gradient(to right, #2457d7, #3b125d);
+    text-align: center;
+}
+/*for navbar-brand*/
+.navbar-brand {
+    margin-left: 40px !important;
+    color: #fff !important;
+}
+/*for navbar list*/
+.navbar-nav li {
+    padding: 0 20px;
+    margin-right: 10px;
+}
+/*for navbar anchor */
+.navbar-nav a {
+    color: white;
+    font-weight: 200;
+    font-family: Arial;
+    font-style: italic;
+    text-align: right;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+body{
+    background-image: url('images/featured_4.jpg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+    
+}
+.festival_img img{
+    width:100%;
+    height:100%;
+}
+.festival_heading {
+    color: #fff;
+}
+.festival_text{
+    color : #88858e;
+}
+.fest_ticket button{
+    background-color: rgb(113, 7, 233);
+    border: none !important;
+}
+.footer {
+    background-color: #a49797;
+    max-width: 100% !important;
+}
+
+.footer a {
+    color: white;
+}

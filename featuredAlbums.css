@@ -1,0 +1,108 @@
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+/*for nav-bar-icon*/
+.navbar-toggler-icon {
+    background-image: none !important;
+    color: #fff;
+}
+/*for navbar*/
+.navbar {
+    background: linear-gradient(to right, #2457d7, #3b125d);
+    text-align: center;
+}
+/*for navbar-brand*/
+.navbar-brand {
+    margin-left: 40px !important;
+    color: #fff !important;
+}
+/*for navbar list*/
+.navbar-nav li {
+    padding: 0 20px;
+    margin-right: 10px;
+}
+/*for navbar anchor */
+.navbar-nav a {
+    color: white;
+    font-weight: 200;
+    font-family: Arial;
+    font-style: italic;
+    text-align: right;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+.albums_main{
+    background-image: url('images/albums-main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+    width: 100%;
+    height: 185px;
+    
+}
+.main_heading{
+    color :#fff;
+    position: relative;
+    top: 35px
+}
+.albums_main .input-group{
+	width: 75%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+}
+
+.col-cards{
+    min-width:300px !important;
+    min-height:300px !important;
+}
+
+@media only screen and (max-width:480px) {
+    .col-cards{
+        min-width:200px !important;
+    }
+}
+
+.Top-heading , .Relesed-heading{
+    color: blue;
+
+}
+.card-img-top1{
+
+}
+
+.Top ::-webkit-scrollbar-track , .Relesed ::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.Top ::-webkit-scrollbar ,.Relesed ::-webkit-scrollbar
+{
+	width: 0px;
+    height: 3px;
+	background-color: #F5F5F5;
+}
+
+.Top ::-webkit-scrollbar-thumb ,.Relesed  ::-webkit-scrollbar-thumb
+{
+	background-color: #242222;
+}
+.footer {
+    background-color: #a49797;
+    max-width: 100% !important;
+}
+
+.footer a {
+    color: white;
+}
